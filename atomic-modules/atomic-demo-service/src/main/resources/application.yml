@@ -1,0 +1,20 @@
+spring:
+  application:
+    ## 配置应用名称
+    name: atomic-demo-service
+  cloud:
+    zookeeper:
+      connect-string: 106.12.203.43:2181
+      ## zookeeper的services根目录
+      discovery:
+        root: atomic
+  profiles:
+    active: dev
+
+## 关闭安全管理
+management:
+  security:
+    enabled: false
+endpoints:
+  health:
+    sensitive: false
