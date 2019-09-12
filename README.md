@@ -8,7 +8,7 @@
 
 # Atomic Microservice Architecture
 ---
-**项目基于开源项目PIG改造，除了基于Spring Cloud、OAuth2.0、Vue的前后端分离的权限管理系统，其中将注册中心、配置中心统一使用zookeeper。**
+**项目基于Spring Cloud、OAuth2.0、Vue的前后端分离的权限管理系统，其中将注册中心、配置中心统一使用zookeeper。**
 
  ### 模块说明
 ``` lua
